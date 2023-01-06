@@ -7,3 +7,5 @@
 <i class="fa-sharp fa-solid fa-location-dot"></i>
 <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
 <i class="fa-solid fa-exclamation"></i>
+
+ <meta name="viewport" content="width=device-width", initial-scale="1.0">
