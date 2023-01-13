@@ -2,90 +2,138 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
     <title>Booki</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_tablette.css">
+    <link rel="stylesheet" href="./css/style_phone.css">
     <link rel="stylesheet" href="./libs/icones/all.min.css">
 </head>
 <body>
-
-    
-        <header>
-            <div>
-                <img class="logo" src="img/svg/logo/Booki@3x.png " alt="Logo Booki">
-            </div>
-        <nav>
-                <ul class="header_list">
-                    <li>
-                        <a class="header_link1" href="#">Hébergements</a>
-                    </li>
-                    <li>
-                        <a class="header_link" href="#">Activités</a>
-                    </li>
-                </ul>    
-        </nav>
+    <header>
+        <div>
+        <img class="logo" src="img/svg/logo/Booki@3x.png " alt="Logo Booki">
+        </div>
+        <div>
+            <ul class="header_list">
+                <li>
+                    <a class="header_link1" href="index_1.html">Hébergements</a>
+                </li>
+                <li>
+                    <a class="header_link" href="index_2.html">Activités</a>
+                </li>
+            </ul>    
+        </div>
     </header>
     
     <main>
-        <section class="intro">
-            <div>
-                <h1>
-                    Trouvez votre hébergement pour des vacances de rêve
-                </h1>
-                    <p class="subtitle">
-                        En plein centre-ville ou en pleine nature
-                    </p>
-                    <form>
-                        <p>
-                            <span class="fa-charp"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
-                            <span class="search"><input name="textfield"  type="text" value="Marseille, France"/></span>
-                            <span class="button"><input type="submit" value="Rechercher"/></span>
-                            </p>
-                    </form>
-                    <p>
-                        <ul class="menu">
-                            <li class="filtres">
-                                <a href="#"></a>Filtres
-                            </li>
-
-                            <li class="bill-wave">
-                                <i class="fa-solid fa-money-bill-wave"></i><a href="#"></a>Économique
-                            </li>
-                            <li class="person">
-                                <i class="fa-solid fa-person"></i><a href="#"></a>Familial
-                            </li>
-                            <li class="heart">
-                                <i class="fa-solid fa-heart"></i><a href="#"></a>Romantique
-                            </li>
-                            <li class="dog">
-                                <i class="fa-solid fa-dog"></i><a href="#"></a>Animaux autorisés
-                            </li>
-                        </ul>
-                    </p>
-                    <div>
-                    <p class="art">
-                        <i class="fa-solid fa-exclamation"></i>
-                         Plus de 500 logements sont disponibles dans cette ville
-                    </p>
+        <div class="intro">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="subtitle">En plein centre-ville ou en pleine nature</p>
+        </div>
+        
+        <div>
+            <form class="content">
+                <p class="dom">
+                    <span class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                    <input type="text" class="text" placeholder="Marseille, France" name="search"/>
+                    <input type="button" class="d1" value="Rechercher"/>
+                </p>
+            </form>
+        </div>
+        
+        <div>
+            <nav>
+            <p>
+            <ul class="menu">
+                <li class="filtres">
+                    <a href="#"></a>Filtres
+                </li>
+                <li class="bill-wave">
+                    <i class="fa-solid fa-money-bill-wave"></i><a href="#"></a>Économique
+                </li>
+                <li class="person">
+                    <i class="fa-solid fa-person"></i><a href="#"></a>Familial
+                </li>
+                <li class="heart">
+                    <i class="fa-solid fa-heart"></i><a href="#"></a>Romantique
+                </li>
+                <li class="dog">
+                    <i class="fa-solid fa-dog"></i><a href="#"></a>Animaux autorisés
+                </li>
+            </ul>
+            </p>
+            </nav>
+        </div>
+        <div>
+            <p class="art">
+                <i class="fa-solid fa-exclamation"></i>
+                    Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+                    
+    <section class="hebmar">
+        <atricle class="article1"> 
+            <h2>Hébergements à Marseille</h2>
+                <div class="conteneur">
+                    <div class="abo"><a href="#"><img src="./img/svg/Main.png" alt="Auberge La Canebière"/></a></div>
+                    <div class="abo"><a href="#"><img src="./img/svg/main2.png" alt="Hôtel du port"></a></div>
+                    <div><a href="#"><img src="./img/svg/Section/Offers/Frame 1.png" alt="Hôtel Les mouettes"></a></div>
+                    <div class="ado"><a href="#"><img src="./img/svg/Section/Offers/Main3.png" alt="Hôtel de la mer"></a></div>
+                    <div class="ado"><a href="#"><img src="./img/svg/Section/Offers/Main4.png" alt="Auberge Le Panier"></a></div>
+                    <div><a href="#"><img src="./img/svg/Section/Offers/Main5.png" alt="Hôtel Chez Amina"></a></div>
                 </div>
-                    <atricle>
-                        <div class="boit">
-                            <di><img src="./img/svg/Main.png" alt="Auberge La Canebière"/></di>
-                            <div><img src="./img/svg/main2.png" alt="Hôtel du port"></div>
-                            <div><img src="./img/svg/Section/Offers/Frame 1.png" alt="Hôtel Les mouettes"></div>
-                            <div><img src="./img/svg/Section/Offers/Main3.png" alt="Hôtel de la mer"></div>
-                            <div><img src="./img/svg/Section/Offers/Main4.png" alt="Auberge Le Panier"></div>
-                            <div><img src="./img/svg/Section/Offers/Main5.png" alt="Hôtel Chez Amina"></div>
-                    </atricle>
-
+                    <p class="plus"><b>Afficher plus</b></p>
+        </atricle>
+                    
+                    
+        <article class="article2">
             
+            <div class="left"><h3>Les plus populaires</h3></div>
+            <div class="right"><img src="./img/svg/Section/Offers/Vector.png"/></div>
+                    
+        <div class="box">
+            <div class="chambre1"><a href="#"><img src="./img/svg/Section/Offers/Sponsored.png" alt="Hôtel Le soleil du matin"/></a></div>
+            <div class="chambre2"><a href="#"><img src="./img/svg/Section/Offers/Sponsored1.png" alt="Chambres dhôtes Au cœur de leau"/></a></div>
+            <div><a href="#"><img src="./img/svg/Section/Offers/Sponsored2.png" alt="Hôtel Bleu et Blanc"/></a></div>
+        </div>           
+        </article>
+</section>
             
-                </div>
-        </section>
-    </main>
-    <p>
-  
-    </p>
-    
-</div>
+<section>
+        <article>
+                <h4><b>Activités à Marseille</b></h4>
+                    <div class="box2">
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Vieux-Port.png" alt="Vieux-Port" class="image1"/></a>
+                            <figcaption><b>Vieux-Port</b></figcaption></div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Fort de Pomègues.png" alt="Fort de Pomègues" class="image1"/></a>
+                            <figcaption><b>Fort de Pomègues</b></figcaption></div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Parc national.png" alt="Parc national des Calanques" class="image1"/></a>
+                            <figcaption><b>Parc national des Calanques</b></figcaption></div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Notre-Dame-de-la-Garde.png" alt="Notre-Dame-de-la-Garde" class="image1"/></a>
+                            <figcaption><b>Notre-Dame-de-la-Garde</b></figcaption></div>
+                     </div>
+        </article>
+</section>
+        
+</main>
+        
+<footer>
+        <div class="footer">
+    <p class="titre"><b>À propos</b></p>
+    <p>Fonctionnement du site</p><br>
+    <p>Conditions générales </p><br>
+    <p>Données et confidentialité</p><br>
+        </div>
+        <div class="footer">
+    <p class="titre"><b>Nos hébergements</b></p>
+    <p>Charte qualité</p><br>
+    <p>Proposer votre hôtel</p><br>
+        </div>
+        <div class="footer">
+    <p class="titre"><b>Assistance</b></p>
+    <p>Centre d’aide</p><br>
+    <p>Nous contacter</p><br>
+        </div>
+</footer>
 </body>
 </html>
