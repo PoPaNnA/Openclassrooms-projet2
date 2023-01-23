@@ -2,14 +2,14 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Booki</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style_tablette.css">
-    <link rel="stylesheet" href="./css/style_phone.css">
+    <link rel="stylesheet" href="./css/style_adapt.css">
     <link rel="stylesheet" href="./libs/icones/all.min.css">
 </head>
 <body>
+    <div class="shell">
     <header>
         <div>
         <img class="logo" src="img/svg/logo/Booki@3x.png " alt="Logo Booki">
@@ -32,20 +32,25 @@
             <p class="subtitle">En plein centre-ville ou en pleine nature</p>
         </div>
         
-        <div>
+        
             <form class="content">
                 <p class="dom">
                     <span class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
-                    <input type="text" class="text" placeholder="Marseille, France" name="search"/>
-                    <input type="button" class="d1" value="Rechercher"/>
+                    <input type="search" class="text" placeholder="Marseille, France" name="search">
+                    <input type="button" class="d1" value="Rechercher">
+                </p>
+                <p class="dom2">
+                    <span class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                    <input type="search" class="text" placeholder="Marseille, France" name="search">
+                    <input type="image" class="d2" name="image" src="./img/svg/button_mobile.png" alt="Button"> 
                 </p>
             </form>
-        </div>
         
-        <div>
-            <nav>
-            <p>
-            <ul class="menu">
+        
+       
+        <nav>
+            <div class="domenu">
+        <ul class="menu">
                 <li class="filtres">
                     <a href="#"></a>Filtres
                 </li>
@@ -61,59 +66,57 @@
                 <li class="dog">
                     <i class="fa-solid fa-dog"></i><a href="#"></a>Animaux autorisés
                 </li>
-            </ul>
-            </p>
-            </nav>
-        </div>
+        </ul>
+            </div>
+        </nav>
+    
+        
         <div>
             <p class="art">
                 <i class="fa-solid fa-exclamation"></i>
-                    Plus de 500 logements sont disponibles dans cette ville</p>
+                <span class="word">Plus de 500 logements sont disponibles dans cette ville</span>
+            </p>
         </div>
                     
-    <section class="hebmar">
-        <atricle class="article1"> 
+    <article class="hebmar">
+        <div class="article1"> 
             <h2>Hébergements à Marseille</h2>
                 <div class="conteneur">
-                    <div class="abo"><a href="#"><img src="./img/svg/Main.png" alt="Auberge La Canebière"/></a></div>
+                    <div class="abo"><a href="#"><img src="./img/svg/Main.png" alt="Auberge La Canebière"></a></div>
                     <div class="abo"><a href="#"><img src="./img/svg/main2.png" alt="Hôtel du port"></a></div>
-                    <div><a href="#"><img src="./img/svg/Section/Offers/Frame 1.png" alt="Hôtel Les mouettes"></a></div>
+                    <div><a href="#"><img src="./img/svg/Section/Offers/Frame1.png" alt="Hôtel Les mouettes"></a></div>
                     <div class="ado"><a href="#"><img src="./img/svg/Section/Offers/Main3.png" alt="Hôtel de la mer"></a></div>
                     <div class="ado"><a href="#"><img src="./img/svg/Section/Offers/Main4.png" alt="Auberge Le Panier"></a></div>
                     <div><a href="#"><img src="./img/svg/Section/Offers/Main5.png" alt="Hôtel Chez Amina"></a></div>
                 </div>
                     <p class="plus"><b>Afficher plus</b></p>
-        </atricle>
-                    
-                    
-        <article class="article2">
-            
-            <div class="left"><h3>Les plus populaires</h3></div>
-            <div class="right"><img src="./img/svg/Section/Offers/Vector.png"/></div>
+        </div>
+    
+        <div class="article2">
+        <div class="left"><h3>Les plus populaires</h3></div>
+        <div class="right"><img src="./img/svg/Section/Offers/Vector.png" alt="Vectot"></div>
                     
         <div class="box">
-            <div class="chambre1"><a href="#"><img src="./img/svg/Section/Offers/Sponsored.png" alt="Hôtel Le soleil du matin"/></a></div>
-            <div class="chambre2"><a href="#"><img src="./img/svg/Section/Offers/Sponsored1.png" alt="Chambres dhôtes Au cœur de leau"/></a></div>
-            <div><a href="#"><img src="./img/svg/Section/Offers/Sponsored2.png" alt="Hôtel Bleu et Blanc"/></a></div>
+            <div class="chambre1"><a href="#"><img src="./img/svg/Section/Offers/Sponsored.png" alt="Hôtel Le soleil du matin"></a></div>
+            <div class="chambre2"><a href="#"><img src="./img/svg/Section/Offers/Sponsored1.png" alt="Chambres dhôtes Au cœur de leau"></a></div>
+            <div><a href="#"><img src="./img/svg/Section/Offers/Sponsored2.png" alt="Hôtel Bleu et Blanc"></a></div>
         </div>           
-        </article>
-</section>
-            
-<section>
+        </div>
+    </article>            
+
         <article>
                 <h4><b>Activités à Marseille</b></h4>
                     <div class="box2">
-                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Vieux-Port.png" alt="Vieux-Port" class="image1"/></a>
-                            <figcaption><b>Vieux-Port</b></figcaption></div>
-                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Fort de Pomègues.png" alt="Fort de Pomègues" class="image1"/></a>
-                            <figcaption><b>Fort de Pomègues</b></figcaption></div>
-                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Parc national.png" alt="Parc national des Calanques" class="image1"/></a>
-                            <figcaption><b>Parc national des Calanques</b></figcaption></div>
-                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Notre-Dame-de-la-Garde.png" alt="Notre-Dame-de-la-Garde" class="image1"/></a>
-                            <figcaption><b>Notre-Dame-de-la-Garde</b></figcaption></div>
-                     </div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Vieux-Port.png" alt="Vieux-Port" class="image1"></a>
+                            <figure><b>Vieux-Port</b></figure></div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/fort_de_pomègues.png" alt="Fort de Pomègues" class="image1"></a>
+                            <figure><b>Fort de Pomègues</b></figure></div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/parc_national.png" alt="Parc national des Calanques" class="image1"></a>
+                            <figure><b>Parc national des Calanques</b></figure></div>
+                        <div class="frame"><a href="#"><img src="./img/svg/Section/Offers/Notre-Dame-de-la-Garde.png" alt="Notre-Dame-de-la-Garde" class="image1"></a>
+                            <figure><b>Notre-Dame-de-la-Garde</b></figure></div>
+                    </div>
         </article>
-</section>
         
 </main>
         
@@ -135,5 +138,6 @@
     <p>Nous contacter</p><br>
         </div>
 </footer>
+</div>
 </body>
 </html>
