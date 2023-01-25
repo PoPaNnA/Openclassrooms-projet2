@@ -4,87 +4,211 @@
     .shell{
         max-width: 100%;
     }  
-    header{
-        max-width: 100%;
-    }
-    .header_list{
-        display: flex;
-        
-        padding-left: 0px;
-    }
     .header_link1{
         border: none;
         color:black;
     }
     .menu{
-        padding-left: 0px;
-        display: flex;
-        max-width: 100%;
+        width: 90%;
      }
     .hebmar{
-        
         display: flex;
         flex-direction: column;
     }
     .article1{
         max-width: 100%;
         height: 626px;
-        padding-right: 0px;
         margin-bottom: 53px;
-        
     }
-    h2{
-    
+     h2{
+        padding-top: 42px;
+        padding-left: 53px;
     }
     .conteneur{
-        justify-content: center;
+        display: flex;
+        justify-content: space-around;
         padding: 0px;
     }
-    .plus{
-        
+    .abo{
+        margin-right: 0px;
     }
-    .conteneur img{
-        object-fit: contain;
-        
+    .ado{
+        margin-right: 0px;
+    }
+    .plus{
+       padding-left: 53px; 
     }
     .article2{
-         
+        width: 100%;
         height: 278px;
     }
     .box{
-        padding-left: 0px;
+        padding-left: 40px;
+        padding-right: 40px;
         display: flex;
         justify-content: space-around;
     }
     .box img{
-        width: 252px;
+        max-width: 100%;
+        height: 144px;
+        object-fit: inherit;
     }
-    h3{
-        padding-top: 0px;
-    }
-    .left{
-        padding-right: 570px;
+    .stroka{
+        padding-bottom: 0px;
+        padding-left: 20px;
+        width: 90%;
+        display: flex;
+        justify-content:space-between;
     }
     .box2{
-        width: 90%;
+        width: 100%;
     }
     .frame {
-        width: 182px;
         height: 267px;
     }
     .image1{
-        width: 182px;
+        width: 100%;
         height: 211px;
     }
     figure{
         font-size: 14px;
+        padding-top: 10px;
     }
     footer{
+        width: 100%;
+    }
+    }
+
+@media screen and (max-width: 768px){
+
+    .shell{
+        max-width: 100%;
+        margin: 0px auto;
+        height: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header_list{
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 31px;
+    }
+    .header_link1{
+        padding-right: 0px;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 23px;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .d1{
+        display: none;
+    }
+    .d2{
+        display: contents;
+    }
+   .menu{
+        padding-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 11px;
+    }
+    .filtres{
+        font-size: 18px;
+        font-weight: bold;
+        padding-right: 500px;
+        margin-bottom: 15px;
+    }
+    .bill-wave{
+      width: 45%;
+      padding-right: 14px;
+      margin-bottom: 17px;
+    }
+    .person{
+        width: 45%;
+        margin-bottom: 17px;
+    }
+    .heart{
+        width: 45%;
+    }
+    .dog{
+        width: 45%;
+        background:none;
+    }
+    .stroka{
+        padding-bottom: 0px;
+    }
+    .article1{
+        order: 2;
+        border:none;
+        background: none;
+        height: auto;
+      }
+    .conteneur{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        object-fit:inherit;
+        }
+    .conteneur img{
+        width: 100%;
+        height: auto;
+        border: none;
+        box-shadow: none;
+    }
+    .article2{
+        order: 1;
+        height: auto;
+    }
+    h4{
+        padding-left: 10px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .box img{
+        width: 100%;
+        height:auto;
+        border: none;
+        box-shadow: none;
+    }
+    .box2{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        h4{
+        margin-left: 30px;
+        }
+    .frame{
         width: 90%;
+        margin-bottom: 24px;
     }
+    .image1{
+        width: 100%;
+        height: 200px;
     }
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding-left: 40px;
+    }
+}
+    
 
 
    
     
-
