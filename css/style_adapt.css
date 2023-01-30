@@ -1,40 +1,20 @@
 
 @media screen and (max-width: 992px){
 
-    .shell{
+    .wrapper{
         max-width: 100%;
     }  
-    .header_link1{
-        border: none;
-        color:black;
-    }
+    
     .menu{
         width: 90%;
      }
-    .hebmar{
-        display: flex;
-        flex-direction: column;
-    }
-    .article1{
-        max-width: 100%;
-        height: 626px;
-        margin-bottom: 53px;
-    }
-     h2{
+  
+    h2{
         padding-top: 42px;
         padding-left: 53px;
     }
-    .conteneur{
-        display: flex;
-        justify-content: space-around;
-        padding: 0px;
-    }
-    .abo{
-        margin-right: 0px;
-    }
-    .ado{
-        margin-right: 0px;
-    }
+   
+   
     .plus{
        padding-left: 53px; 
     }
@@ -79,7 +59,7 @@
     }
     }
 
-@media screen and (max-width: 768px){
+@media all and (min-width: 375px) and (max-width: 768px){
 
     .shell{
         max-width: 100%;
@@ -105,12 +85,13 @@
     }
     .content{
         max-width: 100%;
-    }
+    }    
     .d1{
         display: none;
     }
     .d2{
         display: contents;
+        
     }
    .menu{
         padding-left: 0px;
@@ -141,9 +122,6 @@
         width: 45%;
         background:none;
     }
-    .stroka{
-        padding-bottom: 0px;
-    }
     .article1{
         order: 2;
         border:none;
@@ -168,6 +146,10 @@
     }
     h4{
         padding-left: 10px;
+    }
+    .stroka{
+        width: 90%;
+        margin-left: 15px;
     }
     .box{
         display: flex;
