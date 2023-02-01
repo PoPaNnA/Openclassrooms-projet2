@@ -41,7 +41,7 @@ body{
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
-    margin-top:46px;
+    margin-top:44px;
 }
 .logo
  {  
@@ -413,7 +413,7 @@ h4:hover{
     width: 22%;
     height: 444px;
     border: 1px solid #F2F2F2;
-    box-shadow: 3px 3px 3px 3px #F2F2F2;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
     border-radius: 20px;
     cursor: pointer;
     margin: 0px;
@@ -430,7 +430,7 @@ margin: 20px 20px;
 text-align: center;
 }
 
-/*Section2 end*/
+/*Section3 end*/
 
 /*Finish start*/
 footer{
@@ -440,7 +440,7 @@ footer{
     height: 225px;
     background: #F2F2F2;
     border: 2px solid #F2F2F2;
-    margin-bottom: 60px;
+    margin-bottom: 58px;
     cursor: pointer;
 } 
 footer:hover{
