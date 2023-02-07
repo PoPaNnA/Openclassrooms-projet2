@@ -210,10 +210,6 @@ ul i{
     padding-top: 22px;
     cursor: pointer;
     }
-.title2:hover{
-    text-decoration: underline;
-    text-decoration-color: #0065FC; 
-} 
 .boit1{ 
     position: relative;
     display: block;
@@ -301,10 +297,6 @@ h3{
     font-size: 22px;
     cursor: pointer;
 }
-h3:hover{
-    text-decoration: underline;
-    text-decoration-color: #0065FC;   
-}
 .stroka{
     max-width: 95%;
     padding-top: 41px;
@@ -390,10 +382,6 @@ h3:hover{
 h4{
     font-size: 22px;
     cursor: pointer;
-}
-h4:hover{
-    text-decoration: underline;
-    text-decoration-color: #0065FC;     
 }
  .box_art{
     max-width: 100%;
